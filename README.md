@@ -1,57 +1,15 @@
 # InfoCloud
 Quem?
-Como?
+A Nimbus tecnologia é uma empresa voltada para o monitoramento de situações climáticas em diversas situações. Ela possui 6 membros, 4 sócios e 2 da equipe, eles atuam hoje no mercado no RJ, SP e Curitiba, além de estar em expansão, eles também tem uma parceria com o Centro de operações RIO. Seus clientes são variados, atuam de empresas com empresas e também atuam com clientes diretamente, como engenheiros, meterologistas ou outras pessoas que queiram ter acesso a essas informações.
 Onde?
+Essas empresas ou pessoas geralmente usam os dados em obras, áreas de meterologia, estalagem, ou qualquer outro setor que precise de um cuidado, o maior índice é em obras.
 Por que?
+Geralmente os clientes utilizam os dados para prevenção de acidentes ou atrasos na obra, junto da Nimbus eles podem fazer previsões e com isso fazer um melhor planejamento de tudo que pode ser feito, a própria Nimbus em si pode ajudar diretamente no planejamento junto dos dados.
 Quando?
+Geralmente antes da obra ou da necessidade, as empresas buscam e junto dos dados fazem o planejamento. Algumas empresas recorrem durante e desde que a pessoa continue pagando a plataforma pode ser usada até mesmo depois de pronta para monitoramento.
 O que?
-Nimbus tecnologia, é uma empresa voltada para o monitoramento de construção civil e de cidades.
-Possui parceria com o Centro de Operações Rio.
-Atua junto de várias obras, vias, lagos, eles monitoram para diminuir a ocorrência de chuvas.
-São 6 membros, 4 sócios e 2 da equipe.
-A plataforma absorve dados metereológicos como de radar, conseguem prever coisas como raios, dados de estações, dados das obras, com isso ele fornece previsão e ajuda na tomada de decisão, tudo isso ajuda no planejamento da obra.
-Solução Cronos: Uma plataforma na web, faz previsão personalizada, faz histórico de dados.
-Histórico de dados: Atualmente o histórico de dados armazenados no banco de dados são recuperados através de uma API e exportados.
-Endpoint, ver dps sobre.
-Desafio: Criar uma página mais robusta, que disponibilie esses dados nos formatos:
-Tabelas
-Gráficos (linear, barra, vetores)
-Marcadores georreferenciados em um mapa.
-Botões para exportação para CSV, PDF, PNG.
-Interação entre os componentes
-Adaptação para mobile.
-A parte interessante do Front-End é pegar a requisição para levar a API.
-Mapa interativo com marcadores para cada ponto de monitoramento ou estação.
-Preenchimento de cor de acordo com criterios de criticidade.
-Retorno do histórico de um ou mais pontos mediante a interaçõ com o marcador, seja utilizando polígonos para selecionar um ou mais pontos, seja através de um clique individual.
-Gráficos devem ser dinâmicos, adaptando a frequencia temporal (eixo horizontal) e ordem de grandeza
-Interagir com o gráfico e selecionar quais variaveis são exibidas simultaneamente.]
-Apresentar uma otimização estetica em termos de desempenho, responsividade e intuitividae.
-Os eixos se adaptarem no gráfico.
-Apresentar uma otimização estética em termos de desempenho, responsiviade e intuitividade. Ser exportável para CSV e PDF.
-Clientes: Empresas para empresas, dentro delas há setores que utilizam, dentro há engenheiros, meterologistas, pessoas singulares que utilizam.
-Clientes no RJ, curitiba e SP, além de estar em expansão.
-Clientes de obra não são feitos ainda, já tem aplicativos de planejamento, fazer a integração do aplicativo com os de planejamento, criando um ecossistema em que a nimbus faz parte.
-É uma plataforma paga, usa um modelo de assinatura mensal que utiliza de vários dados para vários locais, com acesso.
-Tem clientes que não necessarimente de obra, há estaleiros e mais diversificados, porém o foco principal é o mercado de obras.
-O problema principal da tabela é que ela não é exibida no site, no caso a tabela deveria ter um design mais moderno.
-Eles não tem o melhor do front-end, o back-end já tem bastante, eles focam mais na API.
-Qualquer modernizaçaõ no sistema em front-end é bem vinda.
-Como esses dados serão disponibilizados pra gente, para a verificação. dados mocados, dados fakes que usa para verificação, downloads, estações, entre outros, nada impede de ter outros endpoints no sistema, seriam dados fisícos e que não se mutam.
-Quais plataformas o cronos roda: Hoje ele roda só web, eles não tem aplicativos mas eles tem demanda de clientes.
-Sobre segurança: Eles tem um sistema de credenciamento, que utiliza de um token para segurança.
-Formato de dados: Eles podem voltar como Json e dps retorna no formato de arquivos, porém eles podem fazer modificações para a forma json. As váriaveis das estações são diferentes, estações que só detectam chuva, ou sensor de rio que vê o nível do RJ, a lista de variaveis é bem extensa. Sensor diferente, medida diferente.
-Não há tabela com as variáveis, eles vão criar uma tabela de variaveis, até passar terá um endpoint. Tem variaveis que eles nem utilizam como radiação solar, deve prever todas as variaveis, com a melhoria com a tabela aí serão enviados pra gente.
-Não há documentação ms há um versionamento de sistema que é privado.
-Quanto a criatividade, o céu é o limite.
-primeiro será feita uma documentação, depois o projeto vai melhorando.
-Pode perguntar qualquer coisa sobre meterologia, pq eles entendem que nós não temos informações sobre a base metereológica.
-O que eles querem são ideias e conhecer a gente.
-Teremos mais contatos com ele.
-Endpoint é o endereço da API.
-API faz conexões de arquivos diferentes.
-Json: É um formato de arquivo de texto que é estruturado, vc transmite dados de forma estruturada que tem forma igual a um dicionário do Python.
-Vamos fazer requisição.
-O base é o protótipo funcional do que ele pediu, tudo será por pedaços.
-https://cronos.nimbusmeteorologia.com.br/login
-https://nimbusmeteorologia.com.br/
+Eles monitoram junto da plataforma principalmente a ocorrência de chuvas, ajudando a prever e conseguir as contornar,porém a plataforma também absorve dados metereológicos como de radar, conseguem prever coisas como raios, dados de estações, dados das obras, com isso ele fornece previsão e ajuda na tomada de decisão.
+Como?
+Eles usam da plataforma Cronos, essa plataforma em si atua como um ecossistema, ele não só informa os dados de cada região como há uma integração com um programa de planejamento, com isso o cliente consegue ver o que precisa e com isso planejar o que e como fazer. Essa plataforma é paga, utilizando um sistema de assinatura mensal. O cronos utiliza de vários dados dados locais e são mostrados em uma página web, por enquanto ainda não há aplicativos para celular. No Cronos há um sistema de segurança para validação da entrada, usando login, senha e a validação de um token de segurança.
+Quais dados?
+Os dados em si são bem variados, podendo ser de chuvas, raios, até mesmo dados especifícos como radiação solar entre outros, inclusive há dados que eles recebem mas nem utilizam tanto. Esses dados são pegados de diversas formas, as vezes em monitoramento de rios, estações meterológicas, os dados em si são extensos e variáveis, cada um com a sua medida. Esses dados são feitos em formato Json e dps convertidos em arquivos de texto que podem ser mostrados, quando se é feita uma alteração no código é feito grande parte no código escrito em Json.
