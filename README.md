@@ -1,5 +1,5 @@
 # Quem?
-A Nimbus Tecnologia é uma empresa especializada no monitoramento de condições climáticas em várias situações. Composta por um time de 6 membros, incluindo 4 sócios e 2 membros da equipe, a empresa opera atualmente nos mercados do Rio de Janeiro, São Paulo e Curitiba. Além disso, estão em processo de expansão e mantêm uma parceria com o Centro de Operações do Rio de Janeiro. Seus clientes são diversos, atendendo tanto a empresas quanto a indivíduos, como engenheiros, meteorologistas ou qualquer pessoa interessada em acessar essas informações.
+A Nimbus Tecnologia é uma empresa especializada no monitoramento de condições climáticas em várias situações. Composta por um time de 6 membros, a empresa opera atualmente nos mercados do Rio de Janeiro, São Paulo e Curitiba. Além disso, estão em processo de expansão e mantêm uma parceria com o Centro de Operações do Rio de Janeiro. Seus clientes são diversos, atendendo tanto a empresas quanto a indivíduos, como engenheiros, meteorologistas ou qualquer pessoa interessada em acessar essas informações.
 
 # Onde?
 Essas empresas ou indivíduos costumam utilizar os dados em diferentes setores, como construção, meteorologia, hospedagem e outros que necessitem de informações climáticas. A maioria das aplicações está relacionada à construção.
