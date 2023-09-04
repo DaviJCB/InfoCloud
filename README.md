@@ -1,4 +1,3 @@
-# InfoCloud
 #  Quem?
   A Nimbus tecnologia é uma empresa voltada para o monitoramento de situações climáticas em diversas situações. Ela possui 6 membros, 4 sócios e 2 da equipe, eles atuam hoje no mercado no RJ, SP e Curitiba, além de estar em expansão, eles também tem uma parceria com o Centro de operações RIO. Seus clientes são variados, atuam de empresas com empresas e também atuam com clientes diretamente, como engenheiros, meterologistas ou outras pessoas que queiram ter acesso a essas informações.
 #  Onde?
