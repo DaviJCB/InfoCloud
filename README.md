@@ -1,3 +1,5 @@
+Correção dos erros ortográficos:
+
 # Sobre a Empresa:
 ## Quem é a Nimbus Tecnologia?
 
@@ -5,7 +7,7 @@ A Nimbus Tecnologia é uma empresa especializada em monitoramento de condições
 
 Essas empresas ou indivíduos utilizam os dados em diferentes setores, como construção, meteorologia, hospedagem e outros que necessitam de informações climáticas. A maioria das aplicações está relacionada à construção. Normalmente, os clientes utilizam os dados para prevenir acidentes ou atrasos em projetos, e a Nimbus oferece previsões que auxiliam no planejamento. A empresa também presta assistência direta no planejamento com base nos dados coletados.
 
-Geralmente, as empresas buscam essas informações antes do início de um projeto ou quando surge a necessidade. Algumas empresas continuam a utilizar a plataforma mesmo durante a execução do projeto, e, desde que o pagamento seja mantido, ela pode ser usada mesmo após a conclusão para fins de monitoramento.
+Geralmente, as empresas buscam essas informações antes do início de um projeto ou quando surge a necessidade. Algumas empresas continuam a utilizar a plataforma mesmo durante a execução do projeto e, desde que o pagamento seja mantido, ela pode ser usada mesmo após a conclusão para fins de monitoramento.
 
 A plataforma da Nimbus monitora principalmente a ocorrência de chuvas, o que ajuda na previsão e adoção de medidas preventivas. Além disso, a plataforma coleta dados meteorológicos, como informações de radares, e é capaz de prever eventos como raios. Ela também integra informações de estações meteorológicas e dados específicos relacionados ao projeto em andamento, oferecendo previsões e auxiliando na tomada de decisões.
 
@@ -13,23 +15,22 @@ A Nimbus utiliza a plataforma Cronos, que funciona como um ecossistema completo.
 
 # Onde?
 
+
 # Por que?
-Apesar de a empresa ter uma plataforma para disponibilizar seus dados, ela é pouco intuítiva e muito "Básica", por assim dizer. Eles desejam uma otimização estética em termos de desempenho, responsividade e intuitividade, além de ser possível exportar para CSV e PDF, dessa forma a plataforma se tornaria mais atrativa para usuário.
+Apesar de a empresa ter uma plataforma para disponibilizar seus dados, ela é pouco intuitiva e muito "básica", por assim dizer. Eles desejam uma otimização estética em termos de desempenho, responsividade e intuitividade, além de ser possível exportar para CSV e PDF. Dessa forma, a plataforma se tornaria mais atrativa para os usuários.
 
 # Quando?
 
 
 # O que?
-A Nimbus já possui um site por assinatura, porém, esse site só serve como uma página de Login para ter acesso a download de suas informações. O desafio aqui é remodelar esse site, o transformando em uma página mais robusta, com mais de uma forma de disponibilizar os dados, com tabelas, Gráficos e um Mapa com marcadores marcadores georreferenciados, além de um formulário que servirá como filtro
-
+A Nimbus já possui um site por assinatura; no entanto, esse site só serve como uma página de login para ter acesso a download de suas informações. O desafio aqui é remodelar esse site, transformando-o em uma página mais robusta, com mais de uma forma de disponibilizar os dados, com tabelas, gráficos e um mapa com marcadores georreferenciados, além de um formulário que servirá como filtro.
 
 # Como?
-Os dados coletados pela Nimbus abrangem uma ampla gama de informações, incluindo dados sobre chuvas, raios e até detalhes específicos, como radiação solar, entre outros. Existem também dados que são coletados, mas não são tão frequentemente utilizados. Esses dados são adquiridos de várias fontes, incluindo monitoramento de rios e estações meteorológicas. Os dados são inicialmente formatados em JSON e posteriormente convertidos em arquivos de texto para visualização. Qualquer modificação no código é geralmente realizada no código JSON.
+Os dados coletados pela Nimbus abrangem uma ampla gama de informações, incluindo dados sobre chuvas, raios e até detalhes específicos, como radiação solar, entre outros. Existem também dados que são coletados, mas não são tão frequentemente utilizados. Esses dados são adquiridos de várias fontes, incluindo monitoramento de rios e estações meteorológicas. Alguns dados serão disponibilizados para as equipes do projeto para que possamos fazer testes e programar o site; são inicialmente formatados em JSON e posteriormente convertidos em arquivos de texto para visualização. Qualquer modificação no código é geralmente realizada no código JSON.
 
 # Quais dados?
-Múltiplos dados são absorvidos pela plataforma da Nimbis para gerar suas previsõess, dados como:
+Múltiplos dados são absorvidos pela plataforma da Nimbus para gerar suas previsões, dados como:
 - Dados de Radares
 - Dados de raios
 - Dados de estações
 - Localização da obra em questão
-
