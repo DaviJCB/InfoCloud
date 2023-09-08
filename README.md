@@ -14,13 +14,13 @@ A Nimbus utiliza a plataforma Cronos, que funciona como um ecossistema completo.
 # Onde?
 
 # Por que?
-Apesar de a empresa ter uma plataforma para disponibilizar seus dados, ela é pouco intuítiva e muito "Básica", por assim dizer. Eles desejam criar um site com uma interface mais amigável, usual e interativa.
+Apesar de a empresa ter uma plataforma para disponibilizar seus dados, ela é pouco intuítiva e muito "Básica", por assim dizer. Eles desejam uma otimização estética em termos de desempenho, responsividade e intuitividade, além de ser possível exportar para CSV e PDF, dessa forma a plataforma se tornaria mais atrativa para usuário.
 
 # Quando?
 
 
 # O que?
-A Nimbus já possui um site por assinatura, porém, esse site só serve como uma página de Login para ter acesso a download de suas informações. O desafio aqui é remodelar esse site, o transformando em uma página mais robusta, com mais de uma forma de disponibilizar os dados, com tabelas, Gráficos e um Mapa com marcadores marcadores georreferenciados, além de um formulário que servirá como filtro. Eles desejam uma otimização estética em termos de desempenho, responsividade e intuitividade, além de ser possível exportar para CSV e PDF
+A Nimbus já possui um site por assinatura, porém, esse site só serve como uma página de Login para ter acesso a download de suas informações. O desafio aqui é remodelar esse site, o transformando em uma página mais robusta, com mais de uma forma de disponibilizar os dados, com tabelas, Gráficos e um Mapa com marcadores marcadores georreferenciados, além de um formulário que servirá como filtro
 
 
 # Como?
