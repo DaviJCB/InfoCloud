@@ -20,7 +20,7 @@ A Nimbus utiliza a plataforma Cronos, que funciona como um ecossistema completo.
 Apesar de a empresa ter uma plataforma para disponibilizar seus dados, ela é pouco intuitiva e muito "básica", por assim dizer. Eles desejam uma otimização estética em termos de desempenho, responsividade e intuitividade, além de ser possível exportar para CSV e PDF. Dessa forma, a plataforma se tornaria mais atrativa para os usuários.
 
 # Quando?
-
+Geralmente antes da obra ou da necessidade, as empresas buscam e junto dos dados fazem o planejamento. Algumas empresas recorrem durante e desde que a pessoa continue pagando a plataforma pode ser usada até mesmo depois de pronta para monitoramento.
 
 # O que?
 A Nimbus já possui um site por assinatura; no entanto, esse site só serve como uma página de login para ter acesso a download de suas informações. O desafio aqui é remodelar esse site, transformando-o em uma página mais robusta, com mais de uma forma de disponibilizar os dados, com tabelas, gráficos e um mapa com marcadores georreferenciados, além de um formulário que servirá como filtro.
