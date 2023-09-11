@@ -38,7 +38,7 @@ O sistema mostrará dados que poderão ser usados para o planejamento de uma obr
 Geralmente, as empresas buscam os dados antes do início de uma obra ou quando necessário para o planejamento. Algumas empresas recorrem ao sistema durante a execução da obra, e, desde que a pessoa continue pagando, a plataforma pode ser usada mesmo após a conclusão para fins de monitoramento.
 
 ## O que?
-O sistema combina um mapa interativo com gráficos que exibem diferentes dados. Esses dados podem ser visualizados através de um único clique ou selecionando pontos no mapa usando polígonos.
+A Nimbus já possui um site por assinatura; no entanto, esse site só serve como uma página de login para ter acesso a download de suas informações. O desafio aqui é remodelar esse site, transformando-o em uma página mais robusta, com mais de uma forma de disponibilizar os dados, com tabelas, gráficos e um mapa com marcadores georreferenciados, além de um formulário que servirá como filtro.
 
 ## Como?
 O sistema requer uma assinatura mensal. O usuário se cadastra e, em seguida, pode fazer login. O sistema estará disponível para acesso na web e pode ser acessado sempre que o usuário desejar.
