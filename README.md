@@ -67,7 +67,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
   3. Gráficos: Os gráficos devem ser flexíveis, ajustando-se automaticamente à escala de tempo e à amplitude das variáveis com base no tipo de informação desejadas. Você pode interagir com o gráfico e escolher quais variáveis deseja ver ao mesmo tempo.
 
 ### Plataformas Mobile:
-- **PM-1:** Além de boa performance para computadores, a página também deve ser otimizada e funcional para dispositivos móveis.
+- **PM-1:** Além de boa performance para computadores, a página também deve ser funcional para dispositivos móveis.
 
 ### Suporte:
 - **SP-1:** O sistema deve fornecer um suporte para os usuários, permitindo que eles obtenham assistência em caso de problemas, perguntas ou reclamações relacionadas ao serviço.
