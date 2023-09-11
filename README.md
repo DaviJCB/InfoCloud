@@ -1,14 +1,3 @@
-# O Propósito:
-O propósito do sistema é criar uma página que seja acessível tanto na web quanto em dispositivos móveis. Essa página irá exibir os dados coletados pela Nimbus de forma dinâmica, utilizando gráficos lineares, de barras e vetores.
-
-Esses gráficos serão interativos, permitindo ao usuário escolher quais variáveis deseja visualizar simultaneamente. Além disso, haverá um mapa interativo com marcadores para cada ponto de monitoramento e estações.
-
-A página também utilizará preenchimento de cor para destacar a criticidade de cada critério, facilitando a visualização. Os usuários terão a opção de exportar os dados para formatos como CSV, PDF e PNG.
-
-Além disso, a interação entre os componentes será facilitada, e os usuários poderão acessar o histórico completo de dados através da interação com os marcadores no mapa. Isso pode ser feito através de cliques individuais em cada parte ou desenhando polígonos para selecionar pontos no mapa.
-
----------------------------------------------------------------------------------------------------
-
 # Sobre a Empresa:
 ## Quem é a Nimbus Tecnologia?
 
@@ -21,6 +10,17 @@ Geralmente, as empresas buscam essas informações antes do início de um projet
 A plataforma da Nimbus monitora principalmente a ocorrência de chuvas, o que ajuda na previsão e adoção de medidas preventivas. Além disso, a plataforma coleta dados meteorológicos, como informações de radares, e é capaz de prever eventos como raios. Ela também integra informações de estações meteorológicas e dados específicos relacionados ao projeto em andamento, oferecendo previsões e auxiliando na tomada de decisões.
 
 A Nimbus utiliza a plataforma Cronos, que funciona como um ecossistema completo. Essa plataforma não apenas fornece informações climáticas de diferentes regiões, mas também se integra a programas de planejamento, permitindo que os clientes visualizem e planejem suas ações com base nos dados coletados. A plataforma é disponibilizada por meio de um modelo de assinatura mensal. O Cronos utiliza uma variedade de fontes de dados locais, apresentando as informações em uma página da web, embora ainda não tenha um aplicativo móvel. Para garantir a segurança, o Cronos emprega autenticação por login e senha, além de um token de segurança para validação de acesso.
+
+---------------------------------------------------------------------------------------------------
+
+# O Propósito:
+O propósito do sistema é criar uma página que seja acessível tanto na web quanto em dispositivos móveis. Essa página irá exibir os dados coletados pela Nimbus de forma dinâmica, utilizando gráficos lineares, de barras e vetores.
+
+Esses gráficos serão interativos, permitindo ao usuário escolher quais variáveis deseja visualizar simultaneamente. Além disso, haverá um mapa interativo com marcadores para cada ponto de monitoramento e estações.
+
+A página também utilizará preenchimento de cor para destacar a criticidade de cada critério, facilitando a visualização. Os usuários terão a opção de exportar os dados para formatos como CSV, PDF e PNG.
+
+Além disso, a interação entre os componentes será facilitada, e os usuários poderão acessar o histórico completo de dados através da interação com os marcadores no mapa. Isso pode ser feito através de cliques individuais em cada parte ou desenhando polígonos para selecionar pontos no mapa.
 
 ---------------------------------------------------------------------------------------------------
 
