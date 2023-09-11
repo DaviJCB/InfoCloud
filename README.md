@@ -9,6 +9,21 @@ Além disso, a interação entre os componentes será facilitada, e os usuários
 
 ---------------------------------------------------------------------------------------------------
 
+# Sobre a Empresa:
+## Quem é a Nimbus Tecnologia?
+
+A Nimbus Tecnologia é uma empresa especializada em monitoramento de condições climáticas em diversas situações. Composta por uma equipe de seis membros, a empresa atualmente atua nos mercados do Rio de Janeiro, São Paulo e Curitiba. Além disso, encontra-se em processo de expansão e possui uma parceria com o Centro de Operações do Rio de Janeiro. Seus clientes variam, atendendo tanto a empresas quanto a indivíduos, como engenheiros, meteorologistas ou qualquer pessoa interessada em acessar essas informações.
+
+Essas empresas ou indivíduos utilizam os dados em diferentes setores, como construção, meteorologia, hospedagem e outros que necessitam de informações climáticas. A maioria das aplicações está relacionada à construção. Normalmente, os clientes utilizam os dados para prevenir acidentes ou atrasos em projetos, e a Nimbus oferece previsões que auxiliam no planejamento. A empresa também presta assistência direta no planejamento com base nos dados coletados.
+
+Geralmente, as empresas buscam essas informações antes do início de um projeto ou quando surge a necessidade. Algumas empresas continuam a utilizar a plataforma mesmo durante a execução do projeto e, desde que o pagamento seja mantido, ela pode ser usada mesmo após a conclusão para fins de monitoramento.
+
+A plataforma da Nimbus monitora principalmente a ocorrência de chuvas, o que ajuda na previsão e adoção de medidas preventivas. Além disso, a plataforma coleta dados meteorológicos, como informações de radares, e é capaz de prever eventos como raios. Ela também integra informações de estações meteorológicas e dados específicos relacionados ao projeto em andamento, oferecendo previsões e auxiliando na tomada de decisões.
+
+A Nimbus utiliza a plataforma Cronos, que funciona como um ecossistema completo. Essa plataforma não apenas fornece informações climáticas de diferentes regiões, mas também se integra a programas de planejamento, permitindo que os clientes visualizem e planejem suas ações com base nos dados coletados. A plataforma é disponibilizada por meio de um modelo de assinatura mensal. O Cronos utiliza uma variedade de fontes de dados locais, apresentando as informações em uma página da web, embora ainda não tenha um aplicativo móvel. Para garantir a segurança, o Cronos emprega autenticação por login e senha, além de um token de segurança para validação de acesso.
+
+---------------------------------------------------------------------------------------------------
+
 # Sobre o sistema:
 ## Quem usará o sistema?
 Os usuários do sistema serão empresas ou pessoas que geralmente utilizam os dados em obras, áreas de meteorologia, estalagem, ou qualquer outro setor que necessite de cuidados. O maior índice de uso está em obras.
