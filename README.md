@@ -82,6 +82,3 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - **US-2:** Deve haver marcadores para cada ponto de monitoramento.
 - **US-3:** Cores diferentes de pins devem ser usadas no mapa de acordo com os critérios de criticidade.
 - **US-4:** Variáveis dos gráficos podem ser selecionadas para serem exibidas simultaneamente.
-
-### Exportação de Dados: 
-- **ED-1:** Deve permitir que os usuários exportem dados para CSV e PDF de maneira rápida e confiável, mantendo a formatação adequada.
