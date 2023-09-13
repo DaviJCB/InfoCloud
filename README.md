@@ -56,29 +56,32 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 ## Requisitos funcionais:
 
 ### Registro de usuários:
-- **RU-1:** Os usuários devem ser capazes de se cadastrar na plataforma e acessar suas contas.
-- **RU-2:** Os usuários devem fornecer um cartão de Crédito/Débito válido para que as cobranças sejam efetuadas corretamente. Eles também devem ter a opção de alterar o cartão de crédito posteriormente.
+- Os usuários devem ser capazes de se cadastrar na plataforma e acessar suas contas.
+- Os usuários devem fornecer um cartão de Crédito/Débito válido para que as cobranças sejam efetuadas corretamente. Eles também devem ter a opção de alterar o cartão de crédito posteriormente.
 
 ### Novo Histórico de dados:
-- **NHD-1:** Os dados serão recebidos através de um formulário, o qual terá diversos critérios como: Período do histórico indicado pela data do ínicio e a data final, tipo de variável meteorológica, estação ou ponto de monitoramento, frequência (Frequência padrão ou em intervalo personalizado) e operação matemática utilizada (acumulado, média, máximo, mínimo).
-- **NHD-2:** Os usuários devem ser capazes de acessar a página de acesso aos dados, onde encontrarão mais de uma forma de acessar as informações:
-  1. Mapa: Um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. Os marcadores devem ter cores personalizadas de acordo com os critérios de criticidade da estação selecionada. Ao selecionar um marcadores, pode ver o histórico de um ou mais pontos selecionando-os com polígonos para escolher vários pontos ou simplesmente clicando em um ponto por vez.
-  2. Tabela: A tabela deve apresentar uma otimização estética, melhorando sua visualização e compreensão, além de ser exportável para três outros tipos de arquivo (CSV, PDF E PNG).
-  3. Gráficos: Os gráficos devem ser flexíveis, ajustando-se automaticamente à escala de tempo e à amplitude das variáveis com base no tipo de informação desejadas. Você pode interagir com o gráfico e escolher quais variáveis deseja ver ao mesmo tempo.
+- Os dados serão recebidos através de um formulário, o qual terá diversos critérios como: Período do histórico indicado pela data do ínicio e a data final, tipo de variável meteorológica, estação ou ponto de monitoramento, frequência (Frequência padrão ou em intervalo personalizado) e operação matemática utilizada (acumulado, média, máximo, mínimo).
+- A tabela deve apresentar uma otimização estética, melhorando sua visualização e compreensão, além de ser exportável para três outros tipos de arquivo (CSV, PDF E PNG).
+
+### Mapa interativo:
+- Deve haver um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. Esses marcadores devem ter cores personalizadas de acordo com os critérios de criticidade da estação selecionada e ao selecionar um deles, pode ver o histórico de um ou mais pontos selecionando-os com polígonos para escolher vários pontos ou simplesmente clicando em um ponto por vez.
+
+### Gráfico:
+- Os gráficos devem ser flexíveis, ajustando-se automaticamente à escala de tempo e à amplitude das variáveis com base no tipo de informação desejadas. Você pode interagir com o gráfico e escolher quais variáveis deseja ver ao mesmo tempo.
 
 ### Plataformas Mobile:
-- **PM-1:** Além de boa performance para computadores, a página também deve ser funcional para dispositivos móveis.
+- Além de boa performance para computadores, a página também deve ser funcional para dispositivos móveis.
 
 ### Suporte:
-- **SP-1:** O sistema deve fornecer um suporte para os usuários, permitindo que eles obtenham assistência em caso de problemas, perguntas ou reclamações relacionadas ao serviço.
+- O sistema deve fornecer um suporte para os usuários, permitindo que eles obtenham assistência em caso de problemas, perguntas ou reclamações relacionadas ao serviço.
 
 
 ## Requisitos Não-Funcionais:
 ### Desempenho: 
-- **DE-1:** O sistema deve ser altamente responsivo, fornecendo resultados de pesquisa e atualizações de mapa e gráficos em tempo hábil.
+- O sistema deve ser altamente responsivo, fornecendo resultados de pesquisa e atualizações de mapa e gráficos em tempo hábil.
 
 ### Usabilidade: 
-- **US-1:** A interface do usuário deve ser intuitiva e de fácil navegação, permitindo que os usuários naveguem facilmente pelo sistema, façam pesquisas e interajam com os gráficos, tabelas e mapas.
-- **US-2:** Deve haver marcadores para cada ponto de monitoramento.
-- **US-3:** Cores diferentes de pins devem ser usadas no mapa de acordo com os critérios de criticidade.
-- **US-4:** Variáveis dos gráficos podem ser selecionadas para serem exibidas simultaneamente.
+- A interface do usuário deve ser intuitiva e de fácil navegação, permitindo que os usuários naveguem facilmente pelo sistema, façam pesquisas e interajam com os gráficos, tabelas e mapas.
+- Deve haver marcadores para cada ponto de monitoramento.
+- Cores diferentes de pins devem ser usadas no mapa de acordo com os critérios de criticidade.
+- Variáveis dos gráficos podem ser selecionadas para serem exibidas simultaneamente.
