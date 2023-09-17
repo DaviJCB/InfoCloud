@@ -69,7 +69,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 ## Requisitos Não-Funcionais:
 ### Desempenho: 
-- **DE-1:** O sistema deve ser altamente responsivo, fornecendo resultados de pesquisa e atualizações de mapa e gráficos em tempo hábil.
+- **DE-1:** O sistema deve fornecer resultados de pesquisa e atualizações de mapa e gráficos em tempo hábil.
 
 ### Usabilidade: 
 - **US-1:** A interface do sistema deve ser intuitiva e de fácil navegação, permitindo que os usuários naveguem facilmente por ele, façam pesquisas e interajam com os gráficos, tabelas e mapas.
