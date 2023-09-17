@@ -50,9 +50,9 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 ## Requisitos funcionais:
 ### Registro de usuário:
 - **RU-1:** O sistema deve ser capaz de cadastrar os usuários na plataforma.
-- **Ru-2:** O sistema deve permitir os usuários acessem suas contas.
+- **RU-2:** O sistema deve permitir os usuários acessem suas contas.
 - **RU-3:** O sistema deve permitir que seja cadastrado um cartão de Crédito/Débito válido. 
-- **Ru-4:** O sistema deve ter a opção de alterar o cartão de crédito cadastrado
+- **RU-4:** O sistema deve ter a opção de alterar o cartão de crédito cadastrado
 ### Novo Histórico de dados:
 - **NHD-1:** O sistema receberá os dados através de um formulário.
 - **NHD-2:** O sistema deve permitir acesso a página de acesso aos dados.
