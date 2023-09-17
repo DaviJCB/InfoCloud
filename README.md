@@ -49,20 +49,21 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 --------------------------------------------------------------------------------------------
 
 # Elicitação:
-## Requisitos funcionais:
-
-- **RU-1:** O sistema deve ser capazes de se cadastrar os usuários na plataforma e permitir que eles acessem suas contas.
-- **RU-2:** O sistema deve permitir que seja cadastrado um cartão de Crédito/Débito válido para que as cobranças sejam efetuadas corretamente. Ele também devem ter a opção de alterar o cartão de crédito posteriormente.
-
-### Novo Histórico de dados:
-- **NHD-1:** O sistema receberá os dados através de um formulário, o qual terá diversos critérios como: Período do histórico indicado pela data do ínicio e a data final, tipo de variável meteorológica, estação ou ponto de monitoramento, frequência (Frequência padrão ou em intervalo personalizado) e operação matemática utilizada (acumulado, média, máximo, mínimo).
-- **NHD-2:** O sistema deve permitir acesso a página dos dados, onde encontrarão mais de uma forma de acessar as informações:
-- **NHD-3** O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. Os marcadores devem ter cores personalizadas de acordo com os critérios de criticidade da estação selecionada e mais de uma forma de serem selecionados.
-- **NHD-4** O sistema disponibilizará uma tabela, melhorando sua, além de ser exportável para três outros tipos de arquivo (CSV, PDF E PNG).
-- **NHD-5** O sistema apresentará gráficos que devem ser flexíveis, com base no tipo de informação desejadas.
-
-### Plataformas Mobile:
-- **PM-1:** O sistema deve ser igualmente acessível a computadores e dispositivos móveis.
+Requisitos funcionais:
+* RU-1: O sistema deve ser capaz de cadastrar os usuários na plataforma.
+* Ru-2: O sistema deve permitir os usuários acessem suas contas.
+* RU-3: O sistema deve permitir que seja cadastrado um cartão de Crédito/Débito válido. 
+* Ru-4: O sistema deve ter a opção de alterar o cartão de crédito cadastrado
+Novo Histórico de dados:
+* NHD-1: O sistema receberá os dados através de um formulário.
+* NHD-2: O sistema deve permitir acesso a página de acesso aos dados.
+* NHD-3 O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. 
+* NHD-4: O Sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
+* NHD-5 O sistema deve ter uma tabela com dados.
+* NHD-6: O sistema deve ser capaz de exportar as tabelas geradas.
+* NHD-7 O sistema apresentará gráficos, com base no tipo de dado selecionado.
+Plataformas Mobile:
+* PM-1: O sistema deve ser igualmente acessível a computadores e dispositivos móveis.
 
 
 ## Requisitos Não-Funcionais:
@@ -71,7 +72,6 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 ### Usabilidade: 
 - **US-1:** A interface do sistema deve ser intuitiva e de fácil navegação, permitindo que os usuários naveguem facilmente por ele, façam pesquisas e interajam com os gráficos, tabelas e mapas.
-  ==========================================================================
 - **US-2:** Deve haver marcadores para cada ponto de monitoramento.
 - **US-3:** Cores diferentes de pins devem ser usadas no mapa de acordo com os critérios de criticidade.
 - **US-4:** Variáveis dos gráficos podem ser selecionadas para serem exibidas simultaneamente.
