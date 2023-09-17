@@ -51,20 +51,20 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 # Elicitação:
 ## Requisitos funcionais:
 ### Registro de usuário
-* RU-1: O sistema deve ser capaz de cadastrar os usuários na plataforma.
-* Ru-2: O sistema deve permitir os usuários acessem suas contas.
-* RU-3: O sistema deve permitir que seja cadastrado um cartão de Crédito/Débito válido. 
-* Ru-4: O sistema deve ter a opção de alterar o cartão de crédito cadastrado
+- **RU-1: O sistema deve ser capaz de cadastrar os usuários na plataforma.
+- **Ru-2: O sistema deve permitir os usuários acessem suas contas.
+- **RU-3: O sistema deve permitir que seja cadastrado um cartão de Crédito/Débito válido. 
+- **Ru-4: O sistema deve ter a opção de alterar o cartão de crédito cadastrado
 ### Novo Histórico de dados:
-* NHD-1: O sistema receberá os dados através de um formulário.
-* NHD-2: O sistema deve permitir acesso a página de acesso aos dados.
-* NHD-3: O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. 
-* NHD-4: O Sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
-* NHD-5: O sistema deve ter uma tabela com dados.
-* NHD-6: O sistema deve ser capaz de exportar as tabelas geradas.
-* NHD-7: O sistema apresentará gráficos, com base no tipo de dado selecionado.
+- **NHD-1: O sistema receberá os dados através de um formulário.
+- **NHD-2: O sistema deve permitir acesso a página de acesso aos dados.
+- **NHD-3: O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. 
+- **NHD-4: O Sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
+- **NHD-5: O sistema deve ter uma tabela com dados.
+- **NHD-6: O sistema deve ser capaz de exportar as tabelas geradas.
+- **NHD-7: O sistema apresentará gráficos, com base no tipo de dado selecionado.
 ###Plataformas Mobile:
-* PM-1: O sistema deve ser igualmente acessível a computadores e dispositivos móveis.
+- **PM-1: O sistema deve ser igualmente acessível a computadores e dispositivos móveis.
 
 
 ## Requisitos Não-Funcionais:
