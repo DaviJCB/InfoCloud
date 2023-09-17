@@ -63,7 +63,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - **NHD-5: O sistema deve ter uma tabela com dados.
 - **NHD-6: O sistema deve ser capaz de exportar as tabelas geradas.
 - **NHD-7: O sistema apresentará gráficos, com base no tipo de dado selecionado.
-###Plataformas Mobile:
+### Plataformas Mobile:
 - **PM-1: O sistema deve ser igualmente acessível a computadores e dispositivos móveis.
 
 
