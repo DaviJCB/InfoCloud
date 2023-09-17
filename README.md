@@ -72,7 +72,8 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - **DE-1:** O sistema deve fornecer resultados de pesquisa e atualizações de mapa e gráficos em tempo hábil.
 
 ### Usabilidade: 
-- **US-1:** A interface do sistema deve ser intuitiva e de fácil navegação, permitindo que os usuários naveguem facilmente por ele, façam pesquisas e interajam com os gráficos, tabelas e mapas.
-- **US-2:** Deve haver marcadores para cada ponto de monitoramento.
+- **US-1:** A interface do sistema deve permitir que os usuários naveguem facilmente por ele, façam pesquisas e interajam com os gráficos, tabelas e mapas.
+- **US-2:** Devem haver marcadores para cada ponto de monitoramento.
 - **US-3:** Cores diferentes de pins devem ser usadas no mapa de acordo com os critérios de criticidade.
 - **US-4:** Variáveis dos gráficos podem ser selecionadas para serem exibidas simultaneamente.
+- **US-4:** O formulário deve ser de facil leitura
