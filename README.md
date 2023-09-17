@@ -16,7 +16,7 @@ A Nimbus utiliza a plataforma Cronos, que funciona como um ecossistema completo.
 # O Propósito:
 O propósito do sistema é criar uma página de histórico de dados que seja acessível tanto na web quanto em dispositivos móveis. Essa página irá exibir os dados coletados pela Nimbus de forma dinâmica, utilizando gráficos lineares, de barras e vetores.
 
-Esses gráficos serão interativos, permitindo ao usuário escolher quais variáveis deseja visualizar simultaneamente. Além disso, haverá um mapa interativo com marcadores para cada ponto de monitoramento e estações. Os usuários terão a opção de exportar os dados para formatos como CSV, PDF e PNG.
+Esses gráficos serão interativos, assim como o mapa. Os usuários terão a opção de exportar os dados para formatos como CSV, PDF e PNG.
 
 ---------------------------------------------------------------------------------------------------
 
