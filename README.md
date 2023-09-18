@@ -49,7 +49,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 # Elicitação:
 ## 🔒 Requisitos funcionais:
 
-- **RF-1:** O sistema receberá os dados, que o usuário deseja filtrar, através de um formulário. 
+- **RF-1:** O sistema receberá os dados que o usuário deseja filtrar através de um formulário. 
 - **RF-2:** O sistema deve permitir acesso a página de acesso aos dados.
 - **RF-3:** O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. 
 - **RF-4:** O sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
