@@ -49,18 +49,15 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 # Elicitação:
 ## 🔒 Requisitos funcionais:
 
-- **RF-1:** O sistema deve ser capaz de cadastrar os usuários na plataforma.
-- **RF-2:** O sistema deve permitir os usuários acessem suas contas.
-- **RF-3:** O sistema deve permitir que seja cadastrado um cartão de Crédito/Débito válido. 
-- **RF-4:** O sistema deve ter a opção de alterar o cartão de crédito cadastrado
-- **RF-5:** O sistema receberá os dados através de um formulário.
-- **RF-6:** O sistema deve permitir acesso a página de acesso aos dados.
-- **RF-7:** O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. 
-- **RF-8:** O sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
-- **RF-9:** O sistema deve ter uma tabela com dados filtrados pelo formulário.
-- **RF-10:** O sistema deve ser capaz de exportar as tabelas e gráficos gerados em PDF, CSV e PNG.
-- **RF-11:** O sistema apresentará gráficos, com base no tipo de dado selecionado.
-
+- **RF-1:** O sistema receberá os dados, que o usuário deseja filtrar, através de um formulário. 
+- **RF-2:** O sistema deve permitir acesso a página de acesso aos dados.
+- **RF-3:** O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. 
+- **RF-4:** O sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
+- **RF-5:** O sistema deve ter uma tabela com dados filtrados pelo formulário.
+- **RF-6:** O sistema deve ser capaz de exportar as tabelas e gráficos gerados em PDF, CSV e PNG.
+- **RF-7:** O sistema apresentará gráficos, com base no tipo de dado selecionado.
+- **RF-8:** O sistema deve permitir a seleção de mais de um ponto de monitoramento simultâneo.
+- **RF-9:** O sistema deve manter um histórico de dados meteorológicos coletados ao longo do tempo para permitir a geração de gráficos de tendência.
 
 ## 🔓 Requisitos Não-Funcionais:
 
@@ -68,8 +65,9 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - **RNF-2** O sistema deve ser capaz de fornecer atualizações de informações meteorológicas em tempo real com uma frequência mínima de [tempo não definido ainda, mas idealmente 15 a 30 minutos].
 - **RNF-3:** A interface do sistema deve ser intuitiva e permitir que os usuários naveguem facilmente por ele, fazendo pesquisas e interações com os gráficos, tabelas e mapas de maneira ágil.
 - **RNF-4:** Os textos, gráficos e mapas exibidos no sistema devem ser legíveis e de fácil compreensão, mesmo em dispositivos de diferentes tamanhos e resoluções
-- **RNF-5:** Variáveis dos gráficos devem poder ser selecionadas para serem exibidas simultaneamente.
-- **RNF-6:** O sistema deve ser igualmente acessível a computadores e dispositivos móveis, garantindo que a experiência seja consistente em diferentes plataformas.
+- **RNF-5:** O sistema deve ser igualmente acessível a computadores e dispositivos móveis, garantindo que a experiência seja consistente em diferentes plataformas.
+- **RNF-6:** O sistema deve aderir a padrões de codificação para garantir a manutenibilidade e escalabilidade do código.
+- **RNF-7:** O sistema deve estar disponível às 24 horas de todos os dias da semana.
 
 
 
