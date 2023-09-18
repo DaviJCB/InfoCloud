@@ -57,21 +57,22 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - **NHD-1:** O sistema receberá os dados através de um formulário.
 - **NHD-2:** O sistema deve permitir acesso a página de acesso aos dados.
 - **NHD-3:** O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. 
-- **NHD-4:** O Sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
+- **NHD-4:** O sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
 - **NHD-5:** O sistema deve ter uma tabela com dados.
-- **NHD-6:** O sistema deve ser capaz de exportar as tabelas geradas.
+- **NHD-6:** O sistema deve ser capaz de exportar as tabelas geradas em PDF e CSV.
 - **NHD-7:** O sistema apresentará gráficos, com base no tipo de dado selecionado.
-### Plataformas Mobile:
-- **PM-1:** O sistema deve ser igualmente acessível a computadores e dispositivos móveis.
 
 
 ## Requisitos Não-Funcionais:
 ### Desempenho: 
-- **DE-1:** O sistema deve fornecer resultados de pesquisa e atualizações de mapa e gráficos em tempo hábil.
+- **DE-1:** O sistema deve fornecer resultados de pesquisa e atualizações de mapa e gráficos em no mínimo [tempo não definido ainda, mas idealmente 2 a 5 segundos].
+- **DE-2** O sistema deve ser capaz de fornecer atualizações de informações meteorológicas em tempo real com uma frequência mínima de [tempo não definido ainda, mas idealmente 15 a 30 minutos].
 
 ### Usabilidade: 
-- **US-1:** A interface do sistema deve permitir que os usuários naveguem facilmente por ele, façam pesquisas e interajam com os gráficos, tabelas e mapas.
-- **US-2:** Devem haver marcadores para cada ponto de monitoramento.
-- **US-3:** Cores diferentes de pins devem ser usadas no mapa de acordo com os critérios de criticidade.
+- **US-1:** A interface do sistema deve ser intuitiva e permitir que os usuários naveguem facilmente por ele, fazendo pesquisas e interações com os gráficos, tabelas e mapas de maneira ágil.
+- **US-2:** Os textos, gráficos e mapas exibidos no sistema devem ser legíveis e de fácil compreensão, mesmo em dispositivos de diferentes tamanhos e resoluções
 - **US-4:** Variáveis dos gráficos devem poder ser selecionadas para serem exibidas simultaneamente.
-- **US-5:** O formulário deve ter design intuitivo 
+- **US-5:** O sistema deve ser igualmente acessível a computadores e dispositivos móveis, garantindo que a experiência seja consistente em diferentes plataformas.
+
+
+
