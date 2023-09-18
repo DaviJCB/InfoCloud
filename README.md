@@ -58,7 +58,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - **NHD-2:** O sistema deve permitir acesso a página de acesso aos dados.
 - **NHD-3:** O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. 
 - **NHD-4:** O sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
-- **NHD-5:** O sistema deve ter uma tabela com dados.
+- **NHD-5:** O sistema deve ter uma tabela com dados filtrados pelo formulário.
 - **NHD-6:** O sistema deve ser capaz de exportar as tabelas geradas em PDF e CSV.
 - **NHD-7:** O sistema apresentará gráficos, com base no tipo de dado selecionado.
 
