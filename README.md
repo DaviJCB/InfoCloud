@@ -58,7 +58,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - **RF-7:** O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. 
 - **RF-8:** O sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
 - **RF-9:** O sistema deve ter uma tabela com dados filtrados pelo formulário.
-- **RF-10:** O sistema deve ser capaz de exportar as tabelas geradas em PDF, CSV e PNG.
+- **RF-10:** O sistema deve ser capaz de exportar as tabelas e gráficos gerados em PDF, CSV e PNG.
 - **RF-11:** O sistema apresentará gráficos, com base no tipo de dado selecionado.
 
 
