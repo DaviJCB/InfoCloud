@@ -1,5 +1,5 @@
 # Sobre a Empresa:
-## Quem é a Nimbus Tecnologia?
+## 🏢 Quem é a Nimbus Tecnologia? 
 
 A Nimbus Tecnologia é uma empresa especializada em monitoramento de condições climáticas, operando atualmente nos mercados do Rio de Janeiro, São Paulo e Curitiba, com planos de expansão. Seus clientes incluem empresas e indivíduos de diversos setores, como construção e meteorologia, que usam seus serviços para prevenir acidentes, atrasos em projetos e auxiliar no planejamento, com a plataforma Cronos como ferramenta principal. 
 
@@ -11,14 +11,14 @@ Com isso, a Nimbus Tecnologia se destaca como uma empresa essencial para aqueles
 
 ---------------------------------------------------------------------------------------------------
 
-# O Propósito:
+# 🔮 O Propósito:
 O propósito do sistema é criar uma página de histórico de dados que seja acessível tanto na web quanto em dispositivos móveis. Essa página irá exibir os dados coletados pela Nimbus de forma dinâmica, utilizando gráficos lineares, de barras e vetores.
 
 Esses gráficos serão interativos, assim como o mapa. Os usuários terão a opção de exportar os dados para formatos como CSV, PDF e PNG.
 
 ---------------------------------------------------------------------------------------------------
 
-# Sobre o sistema:
+# 💻 Sobre o sistema:
 ## Quem usará o sistema?
 Os usuários do sistema serão empresas ou pessoas que geralmente utilizam os dados em obras, áreas de meteorologia, estalagem, ou qualquer outro setor que necessite de cuidados. O maior índice de uso está em obras.
 
@@ -26,7 +26,7 @@ Os usuários do sistema serão empresas ou pessoas que geralmente utilizam os da
 Os usuários que utilizarão o sistema poderão acessá-lo pela web ou pelo celular, seja de casa, na rua ou no trabalho. 
 
 ## Por que?
-O sistema atualmente apresenta os dados de forma pouco intuitiva. Existe o desejo de aprimorar a plataforma em termos de desempenho, responsividade e usabilidade, além de permitir a exportação para CSV e PDF.
+O sistema atualmente apresenta os dados de forma pouco intuitiva. Existe o desejo de aprimorar a plataforma em termos de desempenho, responsividade e usabilidade, além de permitir a exportação para CSV, PDF e PNG.
 
 ## Quando?
 Geralmente, as empresas buscam os dados antes do início de uma obra ou quando necessário para o planejamento. Algumas empresas recorrem ao sistema durante a execução da obra, e, desde que a pessoa continue pagando, a plataforma pode ser usada mesmo após a conclusão para fins de monitoramento.
@@ -47,7 +47,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 --------------------------------------------------------------------------------------------
 
 # Elicitação:
-## Requisitos funcionais:
+## 🔒 Requisitos funcionais:
 
 - **RF-1:** O sistema deve ser capaz de cadastrar os usuários na plataforma.
 - **RF-2:** O sistema deve permitir os usuários acessem suas contas.
@@ -58,11 +58,11 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - **RF-7:** O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. 
 - **RF-8:** O sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
 - **RF-9:** O sistema deve ter uma tabela com dados filtrados pelo formulário.
-- **RF-10:** O sistema deve ser capaz de exportar as tabelas geradas em PDF e CSV.
+- **RF-10:** O sistema deve ser capaz de exportar as tabelas geradas em PDF, CSV e PNG.
 - **RF-11:** O sistema apresentará gráficos, com base no tipo de dado selecionado.
 
 
-## Requisitos Não-Funcionais:
+## 🔓 Requisitos Não-Funcionais:
 
 - **RNF-1:** O sistema deve fornecer resultados de pesquisa e atualizações de mapa e gráficos em no mínimo [tempo não definido ainda, mas idealmente 2 a 5 segundos].
 - **RNF-2** O sistema deve ser capaz de fornecer atualizações de informações meteorológicas em tempo real com uma frequência mínima de [tempo não definido ainda, mas idealmente 15 a 30 minutos].
