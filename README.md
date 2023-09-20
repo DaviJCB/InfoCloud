@@ -1,4 +1,4 @@
-# Sobre a Nimbus:
+# Sobre a Empresa:
 ## 🏢 Quem é a Nimbus Tecnologia? 
 
 A Nimbus Tecnologia é uma empresa especializada em monitoramento de condições climáticas, operando atualmente nos mercados do Rio de Janeiro, São Paulo e Curitiba, com planos de expansão. Seus clientes incluem empresas e indivíduos de diversos setores, como construção e meteorologia, que usam seus serviços para prevenir acidentes, atrasos em projetos e auxiliar no planejamento, com a plataforma Cronos como ferramenta principal. 
