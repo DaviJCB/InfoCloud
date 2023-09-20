@@ -23,7 +23,7 @@ O sistema atualmente apresenta os dados de forma pouco intuitiva. Existe o desej
 Geralmente, as empresas buscam os dados antes do início de uma obra ou quando necessário para o planejamento. Algumas empresas recorrem ao sistema durante a execução da obra, e, desde que a pessoa continue pagando, a plataforma pode ser usada mesmo após a conclusão para fins de monitoramento.
 
 ## O que?
-A Nimbus já possui um site por assinatura; no entanto, esse site só serve como uma página de login para ter acesso a download de suas informações. O desafio aqui é remodelar esse site, transformando-o em uma página mais fácil e intuitiva para o usuário, com mais de uma forma de disponibilizar os dados, com tabelas, gráficos e um mapa com marcadores georreferenciados, além de um formulário que servirá como filtro.
+A Nimbus já possui um site por assinatura; no entanto, esse site só serve como uma página de login para ter acesso a download de suas informações. O desafio aqui é desenvolver uma nova página de histórico de dados, tornando-a uma página mais fácil e intuitiva para o usuário, com mais de uma forma de disponibilizar os dados, com tabelas, gráficos e um mapa com marcadores georreferenciados, além de um formulário que servirá como filtro.
 
 ## Como?
 O sistema requer uma assinatura mensal. O usuário se cadastra e, em seguida, pode fazer login. O sistema estará disponível para acesso na web e pode ser acessado sempre que o usuário desejar.
@@ -60,5 +60,26 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - **RNF-6:** O sistema deve aderir a padrões de codificação para garantir a manutenibilidade e escalabilidade do código.
 - **RNF-7:** O sistema deve estar disponível às 24 horas de todos os dias da semana.
 
+--------------------------------------------------------------------------------------------
 
+# 🖥️Casos de Uso:
+
+## Caso de Uso: Emitir relatório
+
+Ator Principal: Usuário
+
+Outros Atores: <Nenhum>
+
+Pré-condições: O usuário deve estar logado no sistema e estar na págna de histórico de dados.
+
+Fluxo Básico:
+
+[Passo 1]: O usuário define o local de monitoramento
+[Passo 2]: O usuário insere o intervalo, definido por início e fim, no qual deseja receber os dados.
+[Passo 3]: O usuário seleciona as variáveis meteorológicas desejadas.
+[Passo 4]: O usuário seleciona o tipo de arquivo que deseja exportar, entre CSV, PDF OU PNG.
+
+Fluxo Alternativo: <Nenhum>
+
+Pós-condições: O relatório da ponto de monitoramento é emitido no formato desejado pelo usuário e com as variáveis de sua preferência.
 
