@@ -66,20 +66,23 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 ## Caso de Uso: Emitir relatório
 
-Ator Principal: Usuário
+**Ator Principal:** Usuário
 
-Outros Atores: <Nenhum>
+**Outros Atores:** <Nenhum>
 
-Pré-condições: O usuário deve estar logado no sistema e estar na págna de histórico de dados.
+**Pré-condições:** O usuário deve estar logado no sistema e estar na págna de histórico de dados.
 
-Fluxo Básico:
+**Fluxo Básico:**
 
-[Passo 1]: O usuário define o local de monitoramento
+[Passo 1]: O usuário define o local de monitoramento.
+
 [Passo 2]: O usuário insere o intervalo, definido por início e fim, no qual deseja receber os dados.
+
 [Passo 3]: O usuário seleciona as variáveis meteorológicas desejadas.
+
 [Passo 4]: O usuário seleciona o tipo de arquivo que deseja exportar, entre CSV, PDF OU PNG.
 
-Fluxo Alternativo: <Nenhum>
+**Fluxo Alternativo:** <Nenhum>
 
-Pós-condições: O relatório da ponto de monitoramento é emitido no formato desejado pelo usuário e com as variáveis de sua preferência.
+**Pós-condições:** O relatório da ponto de monitoramento é emitido no formato desejado pelo usuário e com as variáveis de sua preferência.
 
