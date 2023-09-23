@@ -70,7 +70,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Outros Atores:** <Nenhum>
 
-**Pré-condições:** O usuário deve estar logado no sistema e estar na págna de histórico de dados.
+**Pré-condições:** O usuário deve estar logado no sistema e estar na página de histórico de dados.
 
 **Fluxo Básico:**
 
@@ -84,5 +84,43 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Fluxo Alternativo:** <Nenhum>
 
-**Pós-condições:** O relatório da ponto de monitoramento é emitido no formato desejado pelo usuário e com as variáveis de sua preferência.
+**Pós-condições:** O relatório do ponto de monitoramento é emitido no formato desejado pelo usuário e com as variáveis de sua preferência.
 
+## Caso de Uso: Interagir com gráfico
+
+**Ator Principal:** Usuário
+
+**Outros Atores:** <Nenhum>
+
+**Pré-condições:** O usuário deve estar logado no sistema e estar na página de gráfico. 
+
+**Fluxo Básico:**
+
+[Passo 1]: O usuário define o ponto de monitoramento no qual terão seus dados apresentados no gráfico.
+
+[Passo 2]: O usuário seleciona quais variáveis deseja que sejam exibidas simultaneamente.
+
+**Fluxo Alternativo:** <Nenhum>
+
+**Pós-condições:** O gráfico apresenta as variáveis selecionadas pelo usuário para que possam ser analisadas.
+
+## Caso de Uso: Interagir com mapa
+
+**Ator Principal:** Usuário
+
+**Outros Atores:** <Nenhum>
+
+**Pré-condições:** O usuário deve estar logado no sistema e estar na página do mapa dos pontos de monitorameneto. 
+
+**Fluxo Básico:**
+
+[Passo 1]: O usuário procura a região que deseja obter as informações.
+
+[Passo 2]: 
+ [Passo 2.1]: O usuário clica no ponto de monitoramento mais próximo da região analisada.
+
+ [Passo 2.2]: O usuário utiliza a marcação em polígonos para selecionar um ou mais pontos.
+
+**Fluxo Alternativo:** <Nenhum>
+
+**Pós-condições:** O histórico do(s) ponto(s) de monitoramento selecionado(s) pelo usuário é apresentado para que possa ser analisado.
