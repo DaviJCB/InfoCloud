@@ -1,4 +1,4 @@
-# Testes de mapa e ferrametna de seleção:
+# Testes de mapa e ferramenta de seleção:
 ![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/40600f53-8e2a-4c68-815d-087c5a912f2b)
 
 # Testes de Gráficos e seleção de variável
