@@ -8,4 +8,10 @@
 
 
 # Idealização do layout mobile:
-![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/c225e88c-ac67-4aeb-963e-608d32dc5834)
+## Página de Formulário:
+![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/66d61704-dde8-4ef4-adbd-233d678d7170)
+
+## Página de Exportação:
+![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/d09beb2b-88ae-4d35-910f-1a42d27b2ae4)
+
+
