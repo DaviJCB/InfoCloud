@@ -102,6 +102,8 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 [Passo 2]: O usuário seleciona quais variáveis deseja que sejam exibidas simultaneamente.
 
+[Passo 3]: O usuário seleciona o tipo de arquivo que deseja exportar, entre CSV, PDF OU PNG.
+
 **Fluxo Alternativo:** Nenhum
 
 **Pós-condições:** O gráfico apresenta as variáveis selecionadas pelo usuário para que possam ser analisadas.
