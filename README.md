@@ -64,7 +64,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 # 🖥️Casos de Uso:
 
-## Caso de Uso: Emitir relatório
+## Caso de Uso: Emitir relatório 📃
 
 **Ator Principal:** Usuário
 
@@ -88,7 +88,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 --------------------------------------------
 
-## Caso de Uso: Interagir com gráfico
+## Caso de Uso: Interagir com gráfico 📊
 
 **Ator Principal:** Usuário
 
@@ -108,7 +108,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 --------------------------------------
 
-## Caso de Uso: Interagir com mapa
+## Caso de Uso: Interagir com mapa 🗺️
 
 **Ator Principal:** Usuário
 
