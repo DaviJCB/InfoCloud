@@ -68,7 +68,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Ator Principal:** Usuário
 
-**Outros Atores:** <Nenhum>
+**Outros Atores:** Nenhum
 
 **Pré-condições:** O usuário deve estar logado no sistema e estar na página de histórico de dados.
 
@@ -82,7 +82,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 [Passo 4]: O usuário seleciona o tipo de arquivo que deseja exportar, entre CSV, PDF OU PNG.
 
-**Fluxo Alternativo:** <Nenhum>
+**Fluxo Alternativo:** Nenhum
 
 **Pós-condições:** O relatório do ponto de monitoramento é emitido no formato desejado pelo usuário e com as variáveis de sua preferência.
 
@@ -92,7 +92,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Ator Principal:** Usuário
 
-**Outros Atores:** <Nenhum>
+**Outros Atores:** Nenhum
 
 **Pré-condições:** O usuário deve estar logado no sistema e estar na página de gráfico. 
 
@@ -102,7 +102,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 [Passo 2]: O usuário seleciona quais variáveis deseja que sejam exibidas simultaneamente.
 
-**Fluxo Alternativo:** <Nenhum>
+**Fluxo Alternativo:** Nenhum
 
 **Pós-condições:** O gráfico apresenta as variáveis selecionadas pelo usuário para que possam ser analisadas.
 
@@ -112,7 +112,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Ator Principal:** Usuário
 
-**Outros Atores:** <Nenhum>
+**Outros Atores:** Nenhum
 
 **Pré-condições:** O usuário deve estar logado no sistema e estar na página do mapa dos pontos de monitorameneto. 
 
@@ -126,6 +126,16 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 - [Passo 2.2]: O usuário utiliza a marcação em polígonos para selecionar um ou mais pontos.
 
-**Fluxo Alternativo:** <Nenhum>
+**Fluxo Alternativo:** Nenhum
 
 **Pós-condições:** O histórico do(s) ponto(s) de monitoramento selecionado(s) pelo usuário é apresentado para que possa ser analisado.
+
+--------------------------------------
+
+# Integrantes 🗿🍷
+- Matheus Peçanha 
+- Daniel Studart
+- Daniel Alves
+- João Paulo Dopcke
+- Davi Jacob
+
