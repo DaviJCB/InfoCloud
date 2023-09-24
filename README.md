@@ -1,13 +1,4 @@
-# Sobre a Empresa:
-## 🏢 Quem é a Nimbus Tecnologia? 
-
-A Nimbus Tecnologia é uma empresa especializada em monitoramento de condições climáticas, operando atualmente nos mercados do Rio de Janeiro, São Paulo e Curitiba, com planos de expansão. Seus clientes incluem empresas e indivíduos de diversos setores, como construção e meteorologia, que usam seus serviços para prevenir acidentes, atrasos em projetos e auxiliar no planejamento, com a plataforma Cronos como ferramenta principal. 
-
-Além de monitorar chuvas e prever eventos climáticos, a Nimbus oferece dados detalhados e integra informações de estações meteorológicas, proporcionando suporte à tomada de decisões de seus clientes.
-
-A plataforma Cronos não apenas fornece informações climáticas, mas também se integra a programas de planejamento, permitindo que os clientes visualizem e planejem suas ações com base nos dados coletados. Oferecida através de uma assinatura mensal, a plataforma garante a segurança dos dados com autenticação por login e senha, bem como um token de segurança para validação de acesso, embora ainda não disponha de um aplicativo móvel. 
-
-Com isso, a Nimbus Tecnologia se destaca como uma empresa essencial para aqueles que dependem de informações climáticas precisas em suas atividades diárias.
+# Projeto Nimbus
 
 ---------------------------------------------------------------------------------------------------
 
@@ -16,7 +7,7 @@ O propósito do sistema é criar uma página de histórico de dados que seja ace
 
 Esses gráficos serão interativos, assim como o mapa. Os usuários terão a opção de exportar os dados para formatos como CSV, PDF e PNG.
 
----------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 # 💻 Sobre o sistema:
 ## Quem usará o sistema?
@@ -32,7 +23,7 @@ O sistema atualmente apresenta os dados de forma pouco intuitiva. Existe o desej
 Geralmente, as empresas buscam os dados antes do início de uma obra ou quando necessário para o planejamento. Algumas empresas recorrem ao sistema durante a execução da obra, e, desde que a pessoa continue pagando, a plataforma pode ser usada mesmo após a conclusão para fins de monitoramento.
 
 ## O que?
-A Nimbus já possui um site por assinatura; no entanto, esse site só serve como uma página de login para ter acesso a download de suas informações. O desafio aqui é remodelar esse site, transformando-o em uma página mais fácil e intuitiva para o usuário, com mais de uma forma de disponibilizar os dados, com tabelas, gráficos e um mapa com marcadores georreferenciados, além de um formulário que servirá como filtro.
+A Nimbus já possui um site por assinatura; no entanto, esse site só serve como uma página de login para ter acesso a download de suas informações. O desafio aqui é desenvolver uma nova página de histórico de dados, tornando-a uma página mais fácil e intuitiva para o usuário, com mais de uma forma de disponibilizar os dados, com tabelas, gráficos e um mapa com marcadores georreferenciados, além de um formulário que servirá como filtro.
 
 ## Como?
 O sistema requer uma assinatura mensal. O usuário se cadastra e, em seguida, pode fazer login. O sistema estará disponível para acesso na web e pode ser acessado sempre que o usuário desejar.
@@ -69,5 +60,82 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - **RNF-6:** O sistema deve aderir a padrões de codificação para garantir a manutenibilidade e escalabilidade do código.
 - **RNF-7:** O sistema deve estar disponível às 24 horas de todos os dias da semana.
 
+------------------------------------------------------------------
 
+# 🖥️Casos de Uso:
+
+## Caso de Uso: Emitir relatório 📃
+
+**Ator Principal:** Usuário
+
+**Outros Atores:** Nenhum
+
+**Pré-condições:** O usuário deve estar logado no sistema e estar na página de histórico de dados.
+
+**Fluxo Básico:**
+
+[Passo 1]: O usuário define o local de monitoramento.
+
+[Passo 2]: O usuário insere o intervalo, definido por início e fim, no qual deseja receber os dados.
+
+[Passo 3]: O usuário seleciona as variáveis meteorológicas desejadas.
+
+[Passo 4]: O usuário seleciona o tipo de arquivo que deseja exportar, entre CSV, PDF OU PNG.
+
+**Fluxo Alternativo:** Nenhum
+
+**Pós-condições:** O relatório do ponto de monitoramento é emitido no formato desejado pelo usuário e com as variáveis de sua preferência.
+
+--------------------------------------------
+
+## Caso de Uso: Interagir com gráfico 📊
+
+**Ator Principal:** Usuário
+
+**Outros Atores:** Nenhum
+
+**Pré-condições:** O usuário deve estar logado no sistema e estar na página de gráfico. 
+
+**Fluxo Básico:**
+
+[Passo 1]: O usuário define o ponto de monitoramento no qual terão seus dados apresentados no gráfico.
+
+[Passo 2]: O usuário seleciona quais variáveis deseja que sejam exibidas simultaneamente.
+
+**Fluxo Alternativo:** Nenhum
+
+**Pós-condições:** O gráfico apresenta as variáveis selecionadas pelo usuário para que possam ser analisadas.
+
+--------------------------------------
+
+## Caso de Uso: Interagir com mapa 🗺️
+
+**Ator Principal:** Usuário
+
+**Outros Atores:** Nenhum
+
+**Pré-condições:** O usuário deve estar logado no sistema e estar na página do mapa dos pontos de monitorameneto. 
+
+**Fluxo Básico:**
+
+[Passo 1]: O usuário procura a região que deseja obter as informações.
+
+[Passo 2]: 
+
+- [Passo 2.1]: O usuário clica no ponto de monitoramento mais próximo da região analisada.
+
+- [Passo 2.2]: O usuário utiliza a marcação em polígonos para selecionar um ou mais pontos.
+
+**Fluxo Alternativo:** Nenhum
+
+**Pós-condições:** O histórico do(s) ponto(s) de monitoramento selecionado(s) pelo usuário é apresentado para que possa ser analisado.
+
+--------------------------------------
+
+# Integrantes 🗿🍷
+- Matheus Peçanha 
+- Daniel Studart
+- Daniel Alves
+- João Paulo Dopcke
+- Davi Jacob
 
