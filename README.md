@@ -122,11 +122,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 [Passo 1]: O usuário procura a região que deseja obter as informações.
 
-[Passo 2]: 
-
-- [Passo 2.1]: O usuário clica no ponto de monitoramento mais próximo da região analisada.
-
-- [Passo 2.2]: O usuário utiliza a marcação em polígonos para selecionar um ou mais pontos.
+[Passo 2]: O usuário clica no ponto de monitoramento mais próximo da região analisada ou selecionar mais pontos.
 
 **Fluxo Alternativo:** Nenhum
 
