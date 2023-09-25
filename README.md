@@ -1,4 +1,5 @@
-![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/ccfc9331-3287-4206-93dc-1dcdef5d944a)
+![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/cd99fc70-a7c1-49fb-bb90-627a288033ff)
+
 
 
 
