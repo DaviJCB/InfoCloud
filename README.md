@@ -1,3 +1,8 @@
+![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/ccfc9331-3287-4206-93dc-1dcdef5d944a)
+
+
+
+
 # Projeto Nimbus
 
 ---------------------------------------------------------------------------------------------------
@@ -140,4 +145,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - Daniel Alves
 - João Paulo Dopcke
 - Davi Jacob
+
+![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/72555e25-1c75-4aa3-b4bc-baac5dc60269)
+
 
