@@ -9,7 +9,7 @@
 ---------------------------------------------------------------------------------------------------
 
 # 🔮 O Propósito:
-O propósito do sistema é criar uma página de histórico de dados que seja acessível tanto na web quanto em dispositivos móveis. Essa página irá exibir os dados coletados pela Nimbus de forma dinâmica, utilizando gráficos lineares, de barras e vetores, fazendo com que fique de mais fácil utilização para o usuário.
+O propósito do sistema é ser uma página de histórico de dados que seja acessível tanto na web quanto em dispositivos móveis. Essa página irá exibir os dados coletados pela Nimbus de forma dinâmica, utilizando gráficos lineares, de barras e vetores, fazendo com que fique de mais fácil utilização para o usuário.
 
 Esses gráficos serão interativos, assim como o mapa. Os usuários terão a opção de exportar os dados para formatos como CSV, PDF e PNG.
 
@@ -72,9 +72,9 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 ## Caso de Uso: Emitir relatório 📃
 
-**Ator Principal:** Usuário
+**Ator Principal:** Usuário.
 
-**Outros Atores:** Nenhum
+**Outros Atores:** Nenhum.
 
 **Pré-condições:** O usuário deve estar logado no sistema e estar na página de histórico de dados.
 
@@ -88,17 +88,17 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 [Passo 4]: O usuário seleciona o tipo de arquivo que deseja exportar, entre CSV, PDF OU PNG.
 
-**Fluxo Alternativo:** Nenhum
+**Fluxo Alternativo:** Nenhum.
 
 **Pós-condições:** O relatório do ponto de monitoramento é emitido no formato desejado pelo usuário e com as variáveis de sua preferência.
 
 --------------------------------------------
 
-## Caso de Uso: Interagir com gráfico 📊
+## Caso de Uso: Configurar o gráfico 📊
 
-**Ator Principal:** Usuário
+**Ator Principal:** Usuário.
 
-**Outros Atores:** Nenhum
+**Outros Atores:** Nenhum.
 
 **Pré-condições:** O usuário deve estar logado no sistema e estar na página de gráfico. 
 
@@ -108,19 +108,17 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 [Passo 2]: O usuário seleciona quais variáveis deseja que sejam exibidas simultaneamente.
 
-[Passo 3]: O usuário seleciona o tipo de arquivo que deseja exportar, entre CSV, PDF OU PNG.
-
-**Fluxo Alternativo:** Nenhum
+**Fluxo Alternativo:** Nenhum.
 
 **Pós-condições:** O gráfico apresenta as variáveis selecionadas pelo usuário para que possam ser analisadas.
 
 --------------------------------------
 
-## Caso de Uso: Interagir com mapa 🗺️
+## Caso de Uso: Configurar o mapa 🗺️
 
-**Ator Principal:** Usuário
+**Ator Principal:** Usuário.
 
-**Outros Atores:** Nenhum
+**Outros Atores:** Nenhum.
 
 **Pré-condições:** O usuário deve estar logado no sistema e estar na página do mapa dos pontos de monitorameneto. 
 
@@ -132,11 +130,35 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 - [Passo 2.1]: O usuário clica no ponto de monitoramento mais próximo da região analisada.
 
+  **Ou
+
 - [Passo 2.2]: O usuário utiliza a marcação em polígonos para selecionar um ou mais pontos.
 
-**Fluxo Alternativo:** Nenhum
+**Fluxo Alternativo:** Nenhum.
 
 **Pós-condições:** O histórico do(s) ponto(s) de monitoramento selecionado(s) pelo usuário é apresentado para que possa ser analisado.
+
+## Caso de Uso: Exportar Gráfico ou Mapa 
+
+**Ator Principal: Usuário.
+
+**Outros Atores: Nenhum.
+
+**Pré-condições:**
+
+   **O usuário deve estar autenticado no sistema.
+   **O usuário deve ter configurado o gráfico ou mapa com as variáveis de seu interesse.
+   **O gráfico ou mapa deve estar visível na tela.
+
+**Fluxo Básico:**
+
+   .[Passo 1]: O usuário navega para a página ou tela que contém o gráfico ou mapa que deseja exportar. 
+
+   .[Passo 2]: O usuário seleciona o formato de exportação desejado (PNG, CSV ou PDF).
+
+**Fluxo Alternativo:** Nenhum.
+
+**Pós-condições:** O usuário possui uma cópia do gráfico ou mapa exportado no formato selecionado (PNG, CSV ou PDF) em seu dispositivo.
 
 --------------------------------------
 
