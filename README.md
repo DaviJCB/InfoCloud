@@ -130,7 +130,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 - [Passo 2.1]: O usuário clica no ponto de monitoramento mais próximo da região analisada.
 
-  **Ou
+  **Ou**
 
 - [Passo 2.2]: O usuário utiliza a marcação em polígonos para selecionar um ou mais pontos.
 
@@ -140,15 +140,15 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 ## Caso de Uso: Exportar Gráfico ou Mapa 
 
-**Ator Principal: Usuário.
+**Ator Principal:** Usuário.
 
-**Outros Atores: Nenhum.
+**Outros Atores:** Nenhum.
 
 **Pré-condições:**
 
-   **O usuário deve estar autenticado no sistema.
-   **O usuário deve ter configurado o gráfico ou mapa com as variáveis de seu interesse.
-   **O gráfico ou mapa deve estar visível na tela.
+   O usuário deve estar autenticado no sistema.
+   O usuário deve ter configurado o gráfico ou mapa com as variáveis de seu interesse.
+   O gráfico ou mapa deve estar visível na tela.
 
 **Fluxo Básico:**
 
