@@ -146,9 +146,11 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Pré-condições:**
 
-   **O usuário deve estar autenticado no sistema.
-   **O usuário deve ter configurado o gráfico ou mapa com as variáveis de seu interesse.
-   **O gráfico ou mapa deve estar visível na tela.
+   O usuário deve estar autenticado no sistema.
+   
+   O usuário deve ter configurado o gráfico ou mapa com as variáveis de seu interesse.
+   
+   O gráfico ou mapa deve estar visível na tela.
 
 **Fluxo Básico:**
 
