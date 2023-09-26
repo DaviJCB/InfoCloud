@@ -1,3 +1,9 @@
+![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/cd99fc70-a7c1-49fb-bb90-627a288033ff)
+
+
+
+
+
 # Projeto Nimbus
 
 ---------------------------------------------------------------------------------------------------
@@ -102,6 +108,8 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 [Passo 2]: O usuário seleciona quais variáveis deseja que sejam exibidas simultaneamente.
 
+[Passo 3]: O usuário seleciona o tipo de arquivo que deseja exportar, entre CSV, PDF OU PNG.
+
 **Fluxo Alternativo:** Nenhum
 
 **Pós-condições:** O gráfico apresenta as variáveis selecionadas pelo usuário para que possam ser analisadas.
@@ -138,4 +146,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - Daniel Alves
 - João Paulo Dopcke
 - Davi Jacob
+
+![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/72555e25-1c75-4aa3-b4bc-baac5dc60269)
+
 
