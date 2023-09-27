@@ -154,9 +154,9 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Fluxo Básico:**
 
-   .[Passo 1]: O usuário navega para a página ou tela que contém o gráfico ou mapa que deseja exportar. 
+[Passo 1]: O usuário navega para a página ou tela que contém o gráfico ou mapa que deseja exportar. 
 
-   .[Passo 2]: O usuário seleciona o formato de exportação desejado (PNG, CSV ou PDF).
+[Passo 2]: O usuário seleciona o formato de exportação desejado (PNG, CSV ou PDF).
 
 **Fluxo Alternativo:** Nenhum.
 
