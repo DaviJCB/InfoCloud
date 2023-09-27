@@ -162,6 +162,10 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Pós-condições:** O usuário possui uma cópia do gráfico ou mapa exportado no formato selecionado (PNG, CSV ou PDF) em seu dispositivo.
 
+# Layout da Página:
+
+ [Prototipagem](https://github.com/DaviJCB/InfoCloud/blob/main/Prototipagem/Protottipagem.md)
+
 --------------------------------------
 
 # Integrantes 🗿🍷
