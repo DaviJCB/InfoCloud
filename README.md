@@ -6,6 +6,8 @@
 
 # Projeto Nimbus
 
+[Sobre a Nimbus](https://github.com/DaviJCB/InfoCloud/blob/main/Nimbus.md)
+
 ---------------------------------------------------------------------------------------------------
 
 # 🔮 O Propósito:
