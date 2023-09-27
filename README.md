@@ -164,7 +164,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 # Layout da Página:
 
-! [Prototipagem](https://github.com/DaviJCB/InfoCloud/blob/main/Prototipagem/Protottipagem.md).
+ [Prototipagem](https://github.com/DaviJCB/InfoCloud/blob/main/Prototipagem/Protottipagem.md)
 
 --------------------------------------
 
