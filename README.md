@@ -84,7 +84,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 [Passo 2]: O usuário insere o intervalo, definido por início e fim, no qual deseja receber os dados.
 
-[Passo 3]: O usuário seleciona as variáveis meteorológicas desejadas.
+[Passo 3]: O usuário seleciona as variáveis desejadas (Velocidade do vento[km/h], Rajada do vento[km/h], Direção do vento).
 
 [Passo 4]: O usuário seleciona o tipo de arquivo que deseja exportar, entre CSV, PDF OU PNG.
 
@@ -138,7 +138,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Pós-condições:** O histórico do(s) ponto(s) de monitoramento selecionado(s) pelo usuário é apresentado para que possa ser analisado.
 
-## Caso de Uso: Exportar Gráfico ou Mapa 
+## Caso de Uso: Exportar Gráfico ou Mapa 📊🗺️
 
 **Ator Principal:** Usuário.
 
@@ -162,7 +162,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Pós-condições:** O usuário possui uma cópia do gráfico ou mapa exportado no formato selecionado (PNG, CSV ou PDF) em seu dispositivo.
 
-# Layout da Página:
+# Layout da Página 📄:
 
  [Prototipagem](https://github.com/DaviJCB/InfoCloud/blob/main/Prototipagem/Protottipagem.md)
 
