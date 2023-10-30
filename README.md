@@ -172,9 +172,10 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 # Pesquisa de Componentes
 
 ## Google-map-react 🗺️
+É um componente escrito por cima de uma pequena parte da  API do Google Maps. Permite renderizar qualquer componente React dentro dos mapas da Google.
+
 [Documentação](https://www.npmjs.com/package/google-map-react)
 
-É um componente escrito por cima de uma pequena parte da  API do Google Maps. Permite renderizar qualquer componente React dentro dos mapas da Google.
 
 ## API do Google 🌐
 [API com Exemplos](https://mapsplatform.google.com/solutions/visualize-data/)
