@@ -169,6 +169,26 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
  [Prototipagem](https://github.com/DaviJCB/InfoCloud/blob/main/Prototipagem/Prototipagem.md)
 
 --------------------------------------
+# Pesquisa de Componentes
+
+## Google-map-react 🗺️
+É um componente escrito por cima de uma pequena parte da  API do Google Maps. Permite renderizar qualquer componente React dentro dos mapas da Google.
+
+[Documentação](https://www.npmjs.com/package/google-map-react)
+
+
+## API do Google 🌐
+[API com Exemplos](https://mapsplatform.google.com/solutions/visualize-data/)
+
+## DeckGL 🌌
+[Documentação](https://deck.gl/docs)
+
+[Exemplos DeckGL](https://deck.gl/examples)
+
+[Integração com a API do Google](https://deck.gl/docs/developer-guide/base-maps/using-with-google-maps)
+
+
+-------------------
 
 # Código do aplicativo
  
