@@ -170,6 +170,12 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 --------------------------------------
 
+# Código do aplicativo
+ 
+ [Código](https://github.com/Studart7/InfoCloudApp/blob/main/README.md)
+
+ ----------------------------------
+
 # Integrantes 🗿🍷
 - Matheus Peçanha 
 - Daniel Studart
