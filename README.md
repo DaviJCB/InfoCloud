@@ -6,6 +6,8 @@
 
 # Projeto Nimbus
 
+[Sobre a Nimbus](https://github.com/DaviJCB/InfoCloud/blob/main/Nimbus.md)
+
 ---------------------------------------------------------------------------------------------------
 
 # 🔮 O Propósito:
@@ -84,7 +86,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 [Passo 2]: O usuário insere o intervalo, definido por início e fim, no qual deseja receber os dados.
 
-[Passo 3]: O usuário seleciona as variáveis meteorológicas desejadas.
+[Passo 3]: O usuário seleciona as variáveis desejadas (Velocidade do vento[km/h], Rajada do vento[km/h], Direção do vento).
 
 [Passo 4]: O usuário seleciona o tipo de arquivo que deseja exportar, entre CSV, PDF OU PNG.
 
@@ -138,7 +140,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Pós-condições:** O histórico do(s) ponto(s) de monitoramento selecionado(s) pelo usuário é apresentado para que possa ser analisado.
 
-## Caso de Uso: Exportar Gráfico ou Mapa 
+## Caso de Uso: Exportar Gráfico ou Mapa 📊🗺️
 
 **Ator Principal:** Usuário.
 
@@ -154,15 +156,45 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 **Fluxo Básico:**
 
-   .[Passo 1]: O usuário navega para a página ou tela que contém o gráfico ou mapa que deseja exportar. 
+[Passo 1]: O usuário navega para a página ou tela que contém o gráfico ou mapa que deseja exportar. 
 
-   .[Passo 2]: O usuário seleciona o formato de exportação desejado (PNG, CSV ou PDF).
+[Passo 2]: O usuário seleciona o formato de exportação desejado (PNG, CSV ou PDF).
 
 **Fluxo Alternativo:** Nenhum.
 
 **Pós-condições:** O usuário possui uma cópia do gráfico ou mapa exportado no formato selecionado (PNG, CSV ou PDF) em seu dispositivo.
 
+# Layout da Página 📄:
+
+ [Prototipagem](https://github.com/DaviJCB/InfoCloud/blob/main/Prototipagem/Prototipagem.md)
+
 --------------------------------------
+# Pesquisa de Componentes
+
+## Google-map-react 🗺️
+É um componente escrito por cima de uma pequena parte da  API do Google Maps. Permite renderizar qualquer componente React dentro dos mapas da Google.
+
+[Documentação](https://www.npmjs.com/package/google-map-react)
+
+
+## API do Google 🌐
+[API com Exemplos](https://mapsplatform.google.com/solutions/visualize-data/)
+
+## DeckGL 🌌
+[Documentação](https://deck.gl/docs)
+
+[Exemplos DeckGL](https://deck.gl/examples)
+
+[Integração com a API do Google](https://deck.gl/docs/developer-guide/base-maps/using-with-google-maps)
+
+
+-------------------
+
+# Código do aplicativo
+ 
+ [Código](https://github.com/Studart7/InfoCloudApp/blob/main/README.md)
+
+ ----------------------------------
 
 # Integrantes 🗿🍷
 - Matheus Peçanha 
