@@ -96,7 +96,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 --------------------------------------------
 
-## Caso de Uso: Configurar o gráfico 📊
+## Caso de Uso: Exibir o gráfico 📊
 
 **Ator Principal:** Usuário.
 
@@ -116,7 +116,7 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 
 --------------------------------------
 
-## Caso de Uso: Configurar o mapa 🗺️
+## Caso de Uso: Exibir o mapa 🗺️
 
 **Ator Principal:** Usuário.
 
