@@ -195,6 +195,11 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
  [Código](https://github.com/Studart7/InfoCloudApp/blob/main/README.md)
 
  ----------------------------------
+# Trello da equipe
+
+[Trello](https://trello.com/b/PrIZWpYP/front-end)
+
+ -----------
 
 # Integrantes 🗿🍷
 - Matheus Peçanha 
