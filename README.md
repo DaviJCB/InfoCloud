@@ -208,13 +208,6 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - João Paulo Dopcke
 - Davi Jacob
 
-# Participação de cada integrante
-- Matheus Peçanha = Exportação do gráfico, refinamento do CSS da tabela, refinamento do CSS da página inicial.
-- Daniel Studart = Marcadores do mapa, página sobre nós, aplicar informações meterológica dos pontos, múltiplas páginas, página do formulário, refinamento do CSS da tabela, múltiplos pontos de posicionamento, componente do mapa, refinamento do CSS do gráfico.
-- Daniel Alves = Refinamento do CSS do gráfico, Correção do caso de uso, responsividade da página inicial e do gráfico.
-- João Paulo Dopckes = Componente do gráfico, filtro do gráfico, exportação do gráfico.
-- Davi Jacob = Componente da tabela, exportação da tabela, refinamento do CSS da tabela.
-
 ![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/72555e25-1c75-4aa3-b4bc-baac5dc60269)
 
 
