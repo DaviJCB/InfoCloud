@@ -208,9 +208,9 @@ O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluind
 - João Paulo Dopcke
 - Davi Jacob
 
-#Participação de cada integrante
-- Matheus Peçanha = Exportação do gráfico.
-- Daniel Studart = Marcadores do mapa, página sobre nós, aplicar informações meterológica dos pontos, multplas páginas, página do formulário, refinamento dop CSS da tabela, multiplos pontos de posicionamento, componente do mapa, refinamento do CSS do gráfico.
+# Participação de cada integrante
+- Matheus Peçanha = Exportação do gráfico, refinamento do CSS da tabela, refinamento do CSS da página inicial.
+- Daniel Studart = Marcadores do mapa, página sobre nós, aplicar informações meterológica dos pontos, múltiplas páginas, página do formulário, refinamento do CSS da tabela, múltiplos pontos de posicionamento, componente do mapa, refinamento do CSS do gráfico.
 - Daniel Alves = Refinamento do CSS do gráfico, Correção do caso de uso, responsividade da página inicial e do gráfico.
 - João Paulo Dopckes = Componente do gráfico, filtro do gráfico, exportação do gráfico.
 - Davi Jacob = Componente da tabela, exportação da tabela, refinamento do CSS da tabela.
