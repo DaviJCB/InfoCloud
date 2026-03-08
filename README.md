@@ -1,213 +1,88 @@
 ![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/cd99fc70-a7c1-49fb-bb90-627a288033ff)
 
 
+# Projeto Nimbus ☁️
 
-
-
-# Projeto Nimbus
+O **Projeto Nimbus** é uma plataforma moderna e intuitiva para visualização de dados meteorológicos históricos e em tempo real. Desenvolvido com foco em usabilidade e performance, o sistema atende desde o planejamento de obras até o monitoramento ambiental contínuo.
 
 [Sobre a Nimbus](https://github.com/DaviJCB/InfoCloud/blob/main/Nimbus.md)
 
----------------------------------------------------------------------------------------------------
+---
 
-# 🔮 O Propósito:
-O propósito do sistema é ser uma página de histórico de dados que seja acessível tanto na web quanto em dispositivos móveis. Essa página irá exibir os dados coletados pela Nimbus de forma dinâmica, utilizando gráficos lineares, de barras e vetores, fazendo com que fique de mais fácil utilização para o usuário.
+# 🔮 O Propósito
+O sistema funciona como uma central de histórico de dados acessível via web e dispositivos móveis. A interface utiliza **design glassmorphism** e temas escuros modernos para exibir dados de forma dinâmica através de:
+- **Gráficos Interativos**: Lineares, de barras e vetores para facilitar a análise.
+- **Mapa Georreferenciado**: Visualização espacial dos pontos de monitoramento.
+- **Tabelas de Dados**: Listagem detalhada com opções de filtragem.
 
-Esses gráficos serão interativos, assim como o mapa. Os usuários terão a opção de exportar os dados para formatos como CSV, PDF e PNG.
+Os usuários podem exportar as informações em formatos como **CSV**, facilitando a integração com outras ferramentas de análise.
 
-------------------------------------------------------------------------------
+---
 
-# 💻 Sobre o sistema:
+# 💻 Sobre o Sistema
+
 ## Quem usará o sistema?
-Os usuários do sistema serão empresas ou pessoas que geralmente utilizam os dados em obras, áreas de meteorologia, estalagem, ou qualquer outro setor que necessite de cuidados. O maior índice de uso está em obras.
+Empresas e profissionais dos setores de construção civil, meteorologia, logística e qualquer outro setor que dependa de condições climáticas para operações seguras. O setor de obras é o principal utilizador para planejamento e execução.
 
 ## Onde?
-Os usuários que utilizarão o sistema poderão acessá-lo pela web ou pelo celular, seja de casa, na rua ou no trabalho. 
+Acesso universal via **Web** ou **Mobile**, permitindo o acompanhamento de casa, no escritório ou diretamente no campo de trabalho.
 
 ## Por que?
-O sistema atualmente apresenta os dados de forma pouco intuitiva. Existe o desejo de aprimorar a plataforma em termos de desempenho, responsividade e usabilidade, além de permitir a exportação para CSV, PDF e PNG.
-
-## Quando?
-Geralmente, as empresas buscam os dados antes do início de uma obra ou quando necessário para o planejamento. Algumas empresas recorrem ao sistema durante a execução da obra, e, desde que a pessoa continue pagando, a plataforma pode ser usada mesmo após a conclusão para fins de monitoramento.
+Para transformar dados meteorológicos complexos em informações intuitivas, melhorando a tomada de decisão, a segurança operacional e o cumprimento de cronogramas.
 
 ## O que?
-A Nimbus já possui um site por assinatura; no entanto, esse site só serve como uma página de login para ter acesso a download de suas informações. O desafio aqui é desenvolver uma nova página de histórico de dados, tornando-a uma página mais fácil e intuitiva para o usuário, com mais de uma forma de disponibilizar os dados, com tabelas, gráficos e um mapa com marcadores georreferenciados, além de um formulário que servirá como filtro.
-
-## Como?
-O sistema requer uma assinatura mensal. O usuário se cadastra e, em seguida, pode fazer login. O sistema estará disponível para acesso na web e pode ser acessado sempre que o usuário desejar.
+Uma evolução da plataforma original da Nimbus, oferecendo uma experiência intuitiva com:
+- **Filtros Avançados**: Formulário para seleção de datas e variáveis.
+- **Visualização do Mapa**: Pontos de monitoramento georreferenciados.
+- **Exportação Flexível**: Download de dados para uso externo.
 
 ## Quais dados?
-O sistema absorve múltiplos tipos de dados para gerar suas previsões, incluindo:
-- Dados de Radares
-- Dados de raios
-- Dados de estações
-- Localização da obra em questão
-
---------------------------------------------------------------------------------------------
-
-# Elicitação:
-## 🔒 Requisitos funcionais:
-
-- **RF-1:** O sistema receberá os dados que o usuário deseja filtrar através de um formulário. 
-- **RF-2:** O sistema deve permitir acesso a página de acesso aos dados.
-- **RF-3:** O sistema disponibilizará um mapa interativo com marcadores que representam os pontos de monitoramento disponíveis. 
-- **RF-4:** O sistema deverá alterar as cores dos marcadores de acordo com os critérios de criticidade da estação.
-- **RF-5:** O sistema deve ter uma tabela com dados filtrados pelo formulário.
-- **RF-6:** O sistema deve ser capaz de exportar as tabelas e gráficos gerados em PDF, CSV e PNG.
-- **RF-7:** O sistema apresentará gráficos, com base no tipo de dado selecionado.
-- **RF-8:** O sistema deve permitir a seleção de mais de um ponto de monitoramento simultâneo.
-- **RF-9:** O sistema deve manter um histórico de dados meteorológicos coletados ao longo do tempo para permitir a geração de gráficos de tendência.
-
-## 🔓 Requisitos Não-Funcionais:
-
-- **RNF-1:** O sistema deve fornecer resultados de pesquisa e atualizações de mapa e gráficos em no mínimo [tempo não definido ainda, mas idealmente 2 a 5 segundos].
-- **RNF-2** O sistema deve ser capaz de fornecer atualizações de informações meteorológicas em tempo real com uma frequência mínima de [tempo não definido ainda, mas idealmente 15 a 30 minutos].
-- **RNF-3:** A interface do sistema deve ser intuitiva e permitir que os usuários naveguem facilmente por ele, fazendo pesquisas e interações com os gráficos, tabelas e mapas de maneira ágil.
-- **RNF-4:** Os textos, gráficos e mapas exibidos no sistema devem ser legíveis e de fácil compreensão, mesmo em dispositivos de diferentes tamanhos e resoluções
-- **RNF-5:** O sistema deve ser igualmente acessível a computadores e dispositivos móveis, garantindo que a experiência seja consistente em diferentes plataformas.
-- **RNF-6:** O sistema deve aderir a padrões de codificação para garantir a manutenibilidade e escalabilidade do código.
-- **RNF-7:** O sistema deve estar disponível às 24 horas de todos os dias da semana.
-
-------------------------------------------------------------------
-
-# 🖥️Casos de Uso:
-
-## Caso de Uso: Emitir relatório 📃
-
-**Ator Principal:** Usuário.
-
-**Outros Atores:** Nenhum.
-
-**Pré-condições:** O usuário deve estar logado no sistema e estar na página de histórico de dados.
-
-**Fluxo Básico:**
-
-[Passo 1]: O usuário define o local de monitoramento.
-
-[Passo 2]: O usuário insere o intervalo, definido por início e fim, no qual deseja receber os dados.
-
-[Passo 3]: O usuário seleciona as variáveis desejadas (Velocidade do vento[km/h], Rajada do vento[km/h], Direção do vento).
-
-[Passo 4]: O usuário seleciona o tipo de arquivo que deseja exportar, entre CSV, PDF OU PNG.
-
-**Fluxo Alternativo:** Nenhum.
-
-**Pós-condições:** O relatório do ponto de monitoramento é emitido no formato desejado pelo usuário e com as variáveis de sua preferência.
-
---------------------------------------------
-
-## Caso de Uso: Exibir o gráfico 📊
-
-**Ator Principal:** Usuário.
-
-**Outros Atores:** Nenhum.
-
-**Pré-condições:** O usuário deve estar logado no sistema e estar na página de gráfico. 
-
-**Fluxo Básico:**
-
-[Passo 1]: O usuário define o ponto de monitoramento no qual terão seus dados apresentados no gráfico.
-
-[Passo 2]: O usuário seleciona quais variáveis deseja que sejam exibidas simultaneamente.
-
-**Fluxo Alternativo:** Nenhum.
-
-**Pós-condições:** O gráfico apresenta as variáveis selecionadas pelo usuário para que possam ser analisadas.
-
---------------------------------------
-
-## Caso de Uso: Exibir o mapa 🗺️
-
-**Ator Principal:** Usuário.
-
-**Outros Atores:** Nenhum.
-
-**Pré-condições:** O usuário deve estar logado no sistema e estar na página do mapa dos pontos de monitorameneto. 
-
-**Fluxo Básico:**
-
-[Passo 1]: O usuário procura a região que deseja obter as informações.
-
-[Passo 2]: 
-
-- [Passo 2.1]: O usuário clica no ponto de monitoramento mais próximo da região analisada.
-
-  **Ou**
-
-- [Passo 2.2]: O usuário utiliza a marcação em polígonos para selecionar um ou mais pontos.
-
-**Fluxo Alternativo:** Nenhum.
-
-**Pós-condições:** O histórico do(s) ponto(s) de monitoramento selecionado(s) pelo usuário é apresentado para que possa ser analisado.
-
-## Caso de Uso: Exportar Gráfico ou Mapa 📊🗺️
-
-**Ator Principal:** Usuário.
-
-**Outros Atores:** Nenhum.
-
-**Pré-condições:**
-
-   - O usuário deve estar autenticado no sistema.
-   
-   - O usuário deve ter configurado o gráfico ou mapa com as variáveis de seu interesse.
-   
-   - O gráfico ou mapa deve estar visível na tela.
-
-**Fluxo Básico:**
-
-[Passo 1]: O usuário navega para a página ou tela que contém o gráfico ou mapa que deseja exportar. 
-
-[Passo 2]: O usuário seleciona o formato de exportação desejado (PNG, CSV ou PDF).
-
-**Fluxo Alternativo:** Nenhum.
-
-**Pós-condições:** O usuário possui uma cópia do gráfico ou mapa exportado no formato selecionado (PNG, CSV ou PDF) em seu dispositivo.
-
-# Layout da Página 📄:
-
- [Prototipagem](https://github.com/DaviJCB/InfoCloud/blob/main/Prototipagem/Prototipagem.md)
-
---------------------------------------
-# Pesquisa de Componentes
-
-## Google-map-react 🗺️
-É um componente escrito por cima de uma pequena parte da  API do Google Maps. Permite renderizar qualquer componente React dentro dos mapas da Google.
-
-[Documentação](https://www.npmjs.com/package/google-map-react)
-
-
-## API do Google 🌐
-[API com Exemplos](https://mapsplatform.google.com/solutions/visualize-data/)
-
-## DeckGL 🌌
-[Documentação](https://deck.gl/docs)
-
-[Exemplos DeckGL](https://deck.gl/examples)
-
-[Integração com a API do Google](https://deck.gl/docs/developer-guide/base-maps/using-with-google-maps)
-
-
--------------------
-
-# Código do aplicativo
- 
- [Código](https://github.com/Studart7/InfoCloudApp/blob/main/README.md)
-
- ----------------------------------
-# Trello da equipe
-
-[Trello](https://trello.com/b/PrIZWpYP/front-end)
-
- -----------
-
-# Integrantes 🗿🍷
-- Matheus Peçanha 
-- Daniel Studart
-- Daniel Alves
-- João Paulo Dopcke
-- Davi Jacob
+O sistema integra múltiplas fontes para geração de insights:
+- Dados de Radares e Raios.
+- Informações de Estações Meteorológicas.
+- Localização precisa de obras e pontos de monitoramento.
+
+---
+
+# Elicitação
+
+## 🔒 Requisitos Funcionais (RF)
+- **RF-1:** Filtragem de dados via formulário (início, fim e variáveis).
+- **RF-2:** Página dedicada de visualização de histórico.
+- **RF-3:** Mapa interativo com marcadores de pontos de monitoramento.
+- **RF-4:** Visualização de criticidade através de cores nos marcadores (em desenvolvimento).
+- **RF-5:** Tabela dinâmica com dados filtrados.
+- **RF-6:** Exportação de dados (CSV implementado; PDF/PNG em planejamento).
+- **RF-7:** Geração de gráficos baseados no tipo de dado selecionado.
+- **RF-8:** Histórico completo de dados meteorológicos para análise de tendências.
+
+## 🔓 Requisitos Não-Funcionais (RNF)
+- **RNF-1:** Carregamento de dados e mapas em tempo otimizado (idealmente < 5s).
+- **RNF-2:** Interface responsiva e legível em desktops e dispositivos móveis (**Mobile First**).
+- **RNF-3:** Design intuitivo com foco em acessibilidade e rapidez operacional.
+- **RNF-4:** Alta disponibilidade (24/7) para suporte a operações críticas.
+
+---
+
+# 🖥️ Tecnologias Utilizadas
+
+## Frontend
+- **React + Vite**: Base do aplicativo para rapidez e modularidade.
+- **Vanilla CSS**: Sistema de design personalizado com variáveis CSS e Glassmorphism.
+- **Leaflet.js**: Motor de mapa robusto e gratuito (OpenStreetMap).
+- **Chart.js**: Biblioteca para geração de gráficos estatísticos.
+- **React Table**: Manipulação eficiente de grandes volumes de dados em tabelas.
+
+---
+
+# 👨‍💻 Equipe (Integrantes)
+- **Matheus Peçanha**: Exportação, CSS da Tabela e Home Page.
+- **Daniel Studart**: Componente do Mapa, Página Sobre Nós, Formulário e Integração de Dados.
+- **Daniel Alves**: Design do Gráfico, Responsividade e Casos de Uso.
+- **João Paulo Dopcke**: Lógica do Gráfico, Filtros e Exportação.
+- **Davi Jacob**: Componente de Tabela e Lógica de Exportação.
 
 ![image](https://github.com/DaviJCB/InfoCloud/assets/102532061/72555e25-1c75-4aa3-b4bc-baac5dc60269)
 
-
+---
+[Código Fonte](https://github.com/Studart7/InfoCloudApp) | [Trello do Projeto](https://trello.com/b/PrIZWpYP/front-end)
